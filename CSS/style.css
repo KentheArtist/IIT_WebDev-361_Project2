@@ -48,6 +48,10 @@ body {
   transition: all 0.3s ease;
 }	
 
+.menu li a:hover {
+  color: #233237;
+}
+
 .title {
   text-align: center;
   width: 250px;
