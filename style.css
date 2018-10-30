@@ -1,217 +1,188 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-body {
+.indexbody {
   background: #87CEFA;
-  background-size: cover;
-}
-
-/*navbar*/
-
-.navbar {
-  width: 100%;
-  overflow: hidden;
-  height: 45px;
-  line-height: 45px;
-  border-bottom: 1px solid #000000;
-  background-color: #A9A9A9;
-  position: fixed;
-}
-
-.container {
-  color: #f5f5f5;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-.menu {
-  float: center;
-}
-
-.menu li {
-  float: left;
-  width: 150px;
-  text-align: center;
-  list-style: none;
-}
-
-.menu li a {
-  color: #f5f5f5;
-  font-family: 'Acme', sans-serif;
-  font-size: 1.25em;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}	
-
-.menu li a:hover {
-  color: #233237;
-}
-
-.title {
-  text-align: center;
-  width: 250px;
-  float: left;
-}
-
-h5 {
-  font-family: 'Acme', sans-serif;
-  font-size: 1.85em;
-  color: #Eac67a;
-}
-/*end of navbar*/
-
-/*main index*/
-img.Pic8698 {
-  width: 85%;
-  height: auto;
-  float: right;
-  margin: 20px;
-  box-shadow: 2px 2px 3px #888888;
-}
-
-.content {
-  background-color: #FFFFFF;
-  width: 70%;
-  margin: auto;
-  border-left: 1px solid #000000;
-  border-right: 1px solid #000000;
-}
-
-.text {
-  background-color: #f5f5f5;
-  width: 95%;
-  margin: auto;
-  font-family: sans-serif;
-  padding: 70px 25px;
-  font-family: 'Comfortaa', cursive;
-  border-left: 2px solid #eac67a;
-  border-right: 2px solid #eac67a;
-}
-
-.text p {
-  text-indent: 25px;
-  line-height: 1.35em;
-}
-
-h1.textheading {
-  font-size: 2.65em;
-}
-/*end of main*/
-
-/*resume*/
-.resume {
-  background-color: #FFFFFF;
-  width: 70%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 80px 60px;
-  border-left: 1px solid #f5f5f5;
-  border-right: 1px solid #f5f5f5;
+  background-size: 100%;
 }
 
 .resumebody {
-  background-color: #FFFFFF;
-  color: #233237;
-  width: 70%;
-  margin-right: auto;
+  background: #87CEFA;
+  background-size: 100%;
+}
+
+.mybandbody {
+  background: #87CEFA;
+  background-size: 100%;
+}
+
+/*Nav bar*/
+
+.navbar{
+  position: relative;
+  padding: 0.5rem 1rem;
+  align-items: center;
   margin-left: auto;
-  padding: 60px 40px;
-  font-family: 'Comfortaa', cursive;
-  line-height: 1.35em;
+  margin-right: auto;
 }
 
-.resume h3 {
-  text-align: center;
-  margin-bottom: 5px;
+.navbar a.active{
+  background-color: #A9A9A9;
+  color: white;
 }
 
-.header {
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-.header li {
-  text-decoration: none;
-  overflow: scroll;
-  text-align: right;
-}
-
-.header h2 {
-  float: left;
-}
-
-.perinfo {
-  margin-left: 7%;
-  margin-bottom: 5px;
-}
-
-.academic {
-  margin-bottom: 5px;
-}
-
-.extraactiv {
-  margin-bottom: 5px;
-}
-
-.skills {
-  margin-bottom: 5px;
-}
-/*end of resume*/
-
-/*band*/
-.rockband {
-  background-color: #ffffff;
-  width: 70%;
+.navbar ul{
+  background-color: #a6a6a6;
   margin: auto;
-  border-left: 1px solid #f5f5f5;
-  border-right: 1px solid #f5f5f5;
+  padding: 10px;
+  overflow: hidden;
 }
 
-.aboutband {
-  background-color: #f5f5f5;
-  color: #233237;
-  width: 80%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 60px 25px;
-  font-family: 'Comfortaa', cursive;
-  border-left: 2px solid #eac67a;
-  border-right: 2px solid #eac67a;
-}
-.begining {
-	text-indent: 25px;
-	line-height:1.35em;
-}
-.concerts {
-  text-indent: 25px;
-  line-height: 1.35em;
-}
-
-.ended {
-  text-indent: 25px;
-  line-height: 1.35em;
-}
-
-video {
-  text-indent: 25px;
-  line-height: 1.35em;
-}
-
-video01_banda_do_ze {
-  width: 85%;
-  height: auto;
+.navbar li{
+  font-family: 'Acme', sans-serif;
+  font-size: 20px;
   float: right;
-  margin: 20px;
-}
-/*end of media*/
+  list-style-type: none;
 
-/*footer*/
-footer {
+}
+.navbar a{
+  display: inline-block;
+  text-align:center;
+  text-decoration: none;
+  padding: 15px;
+  transition: all 0.3s;
+
+}
+
+/*end nav bar*/
+
+/*Index*/
+
+.indexcontent{
+  padding-bottom: 20px;
+  position: relative;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  background: #FFFFFF;
+}
+
+.indexcontent h1{
+  text-align: center;
+  margin: 10px auto;
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Comfortaa', cursive;
+}
+
+.indexcontnt p{
+  font-family: 'Comfortaa', cursive;
+}
+
+/*End Index*/
+
+/*Resume*/
+
+.resumecontent {
+  padding-bottom: 20px;
+  position: relative;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  background: #FFFFFF;
+  font-family: 'Comfortaa', cursive;
+}
+
+.resumetitle{
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Acme', sans-serif;
+  color: #f5f5f5;
+}
+
+.header{
+  margin: 10px auto;
+  padding-bottom: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  border-bottom: 1px solid #333;
+  font-family: 'Comfortaa', cursive;
+}
+
+.perinfo{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+{
+
+.academic{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.extraactiv{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+{
+
+.skills{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+/*End of Resume*/
+
+/*My band*/
+
+.mybandcontent{
+  padding-bottom: 20px;
+  position: relative;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px 2px #999;
+  margin: 30px auto;
+  padding-bottom: 40px;
+  background: #FFFFFF;
+  opacity: 0.9;
+}
+
+.mybandtitle{
+  text-align: center;
+  font-size: 3.5em;
+  font-family: 'Comfortaa', cursive;
+}
+
+.aboutband{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.begining{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.concerts{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.ended{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+.video{
+  text-align: center;
+  font-family: 'Comfortaa', cursive;
+}
+
+/*End My Band*/
+
+/*Footer*/
+	
+.footer {
   background-color: #B0C4DE;
   color: #Eac67a;
   font-family: 'Comfortaa', cursive;
@@ -220,4 +191,14 @@ footer {
   padding: 5px;
   border-top: 1px solid #ff533d;
 }
-/*end footer*/
+
+/*End Footer*/
+	
+img.Pic8698 {
+  width: 85%;
+  height: auto;
+  float: right;
+  margin: 20px;
+  box-shadow: 2px 2px 3px #888888;
+}
+	
